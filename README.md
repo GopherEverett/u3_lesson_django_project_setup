@@ -63,7 +63,7 @@ DATABASES = {
 }
 ```
 
-10. Create a datbase locally on your machine.
+10. Create a postgres database locally on your machine.
 ```zsh
 createdb <database name>
 ```
