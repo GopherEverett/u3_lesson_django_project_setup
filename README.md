@@ -62,30 +62,36 @@ DATABASES = {
     }
 }
 ```
-10. Check to make sure the project starts up:
+
+10. Create a datbase locally on your machine.
+```zsh
+createdb <database name>
+```
+
+11. Check to make sure the project starts up:
 ```zsh
 python3 manage.py runserver
 ```
-11. There are several migrations pending (i.e., waiting to be applied to the database) - so let’s apply them.
+12. There are several migrations pending (i.e., waiting to be applied to the database) - so let’s apply them.
 ```zsh
 python3 manage.py migrate
 ```
-12. Open VSCode.
+13. Open VSCode.
 ```zsh
 code .
 ```
 
-13. Create a `.gitignore` file in the root of the project and add `.venv` to it.
+14. Create a `.gitignore` file in the root of the project and add `.venv` to it.
 
-14. Initialize a git repo locally and connect to a remote repo created in Github.
+15. Initialize a git repo locally and connect to a remote repo created in Github.
 ```zsh
 git init
 git remote add origin <ssh URL from Github repo>
 ```
 
-15. Create a superuser for the admin site.
+16. Create a superuser for the admin site.
 ```zsh
 python3 manage.py createsuperuser
 ```
 
-16. Enjoy!
+17. Enjoy!
